@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:isbn="http://webservices.daehosting.com/ISBN">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <isbn:IsValidISBN10>
+         <isbn:sISBN>${#TestCase#ISBN10}</isbn:sISBN>
+      </isbn:IsValidISBN10>
+   </soapenv:Body>
+</soapenv:Envelope>

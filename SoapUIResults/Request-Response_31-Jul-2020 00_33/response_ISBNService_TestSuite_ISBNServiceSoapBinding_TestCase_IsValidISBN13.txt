@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:IsValidISBN13Response xmlns:m="http://webservices.daehosting.com/ISBN">
+         <m:IsValidISBN13Result>true</m:IsValidISBN13Result>
+      </m:IsValidISBN13Response>
+   </soap:Body>
+</soap:Envelope>
